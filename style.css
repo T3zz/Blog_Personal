@@ -38,32 +38,32 @@ text-shadow: 1px 1px black;}
 
 
 .contenedor img{
-    left:350px;
+    left: 17%;
     position:absolute;
-    top: 350px;
+    top: 20%;
     
 }
 .contenedor2 img{
-    left:730px;
+    left:40%;
     position:absolute;
-    top: 1900px;
+    top: 195%;
     
 }
 .contenedor3 img{
-    left:1260px;
+    left:70%;
     position:absolute;
-    top: 2700px;
+    top: 270%;
     
 }
 .contenedor4 img{
-    left: 600px;
+    left: 65%;
     position: absolute;
-    top:4175px;
+    top:410%;
 
 }
 .contenedor5 img{
-    left: 300px;
+    left: 20%;
     position: absolute;
-    top:4700px;
+    top:510%;
 
 }
