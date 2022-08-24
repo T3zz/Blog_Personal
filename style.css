@@ -12,7 +12,7 @@ body{background-image: url(Wallpaper1.jpg);
             align-items: center;}
             .contenedor2{
                 background-color:rgb(3, 0, 0) ;
-                height: 50vh;
+                height: 70vh;
                 margin: 10%;
                 display: flex;
                 flex-direction: column;
@@ -21,7 +21,7 @@ body{background-image: url(Wallpaper1.jpg);
                     align-items: center;}
                     .contenedor3{
                         background-color:rgb(3, 0, 0) ;
-                        height: 80vh;
+                        height: 170vh;
                         margin: 10%;
                         display: flex;
                         flex-direction: column;
@@ -30,7 +30,7 @@ body{background-image: url(Wallpaper1.jpg);
                             align-items: center;}
                             .contenedor4{
                                 background-color:rgb(3, 0, 0) ;
-                                height: 80vh;
+                                height: 170vh;
                                 margin: 10%;
                                 display: flex;
                                 flex-direction: column;
@@ -39,7 +39,7 @@ body{background-image: url(Wallpaper1.jpg);
                                     align-items: center;}
                                         .contenedor5{
                                         background-color:rgb(3, 0, 0) ;
-                                        height: 80vh;
+                                        height: 200vh;
                                         margin: 10%;
                                         display: flex;
                                         flex-direction: column;
@@ -48,7 +48,7 @@ body{background-image: url(Wallpaper1.jpg);
                                             align-items: center;}
                                             .contenedor6{
                                                 background-color:rgb(3, 0, 0) ;
-                                                height: 60vh;
+                                                height: 110vh;
                                                 margin: 10%;
                                                 display: flex;
                                                 flex-direction: column;
@@ -83,7 +83,7 @@ body{background-image: url(Wallpaper1.jpg);
     font-weight:"medium";}
     #Parrafo5{color: rgb(255, 255, 255);
         text-align:left;
-    font-size: 1.4em;
+    font-size: 1.6em;
     font-weight:"medium";}
     #Parrafo6{color: rgb(255, 255, 255);
         text-align:left;
@@ -115,21 +115,21 @@ body{background-image: url(Wallpaper1.jpg);
         
     }
     .contenedor3 img{
-        left:67%;
+        left:38%;
         position:absolute;
-        top: 168%;
+        top: 220%;
         
     }
     .contenedor4 img{
-        left: 40%;
+        left: 35%;
         position: absolute;
-        top:268%;
+        top:412%;
     
     }
     .contenedor5 img{
-        left: 17%;
+        left: 37%;
         position: absolute;
-        top:355%;
+        top:602%;
     
     }
     .contenedor6 img{
