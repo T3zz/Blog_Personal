@@ -1,0 +1,127 @@
+body{background-image: url(Wallpaper1.jpg);
+    background-size: cover;}
+
+    .contenedor{
+        background-color:rgb(3, 0, 0) ;
+        height: 50vh;
+        margin: 10%;
+        display: flex;
+        flex-direction: column;
+         margin-top: 6%;
+         justify-content:space-around;
+            align-items: center;}
+            .contenedor2{
+                background-color:rgb(3, 0, 0) ;
+                height: 50vh;
+                margin: 10%;
+                display: flex;
+                flex-direction: column;
+                 margin-top: 6%;
+                 justify-content:space-around;
+                    align-items: center;}
+                    .contenedor3{
+                        background-color:rgb(3, 0, 0) ;
+                        height: 80vh;
+                        margin: 10%;
+                        display: flex;
+                        flex-direction: column;
+                         margin-top: 6%;
+                         justify-content:space-around;
+                            align-items: center;}
+                            .contenedor4{
+                                background-color:rgb(3, 0, 0) ;
+                                height: 80vh;
+                                margin: 10%;
+                                display: flex;
+                                flex-direction: column;
+                                 margin-top: 6%;
+                                 justify-content:space-around;
+                                    align-items: center;}
+                                        .contenedor5{
+                                        background-color:rgb(3, 0, 0) ;
+                                        height: 80vh;
+                                        margin: 10%;
+                                        display: flex;
+                                        flex-direction: column;
+                                         margin-top: 6%;
+                                         justify-content:space-around;
+                                            align-items: center;}
+                                            .contenedor6{
+                                                background-color:rgb(3, 0, 0) ;
+                                                height: 70vh;
+                                                margin: 10%;
+                                                display: flex;
+                                                flex-direction: column;
+                                                 margin-top: 6%;
+                                                 justify-content:space-around;
+                                                    align-items: center;}
+    
+    #Parrafo1{color: rgb(255, 255, 255); 
+        text-align:left;
+    font-size: 1.8em;
+    font-weight:"medium";}
+    #Parrafo2{color: rgb(255, 255, 255);
+        text-align:left;
+    font-size: 1.8em;
+    font-weight:"medium";}
+    #Parrafo3{color: rgb(255, 255, 255);
+        text-align:left;
+    font-size: 1.5em;
+    font-weight:"medium";}
+    #Parrafo4{color: rgb(255, 255, 255);
+        text-align:left;
+    font-size: 1.6em;
+    font-weight:"medium";}
+    #Parrafo5{color: rgb(255, 255, 255);
+        text-align:left;
+    font-size: 1.4em;
+    font-weight:"medium";}
+    #Parrafo6{color: rgb(255, 255, 255);
+        text-align:left;
+    font-size: 1.3em;
+    font-weight:"medium";}
+    h1,h2,h3,h4,h5,h6{
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 55px;  
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(247, 247, 247);
+    text-shadow: 1px 1px black;}
+    
+    
+    .contenedor img{
+        left:350px;
+        position:absolute;
+        top: 350px;
+        
+    }
+    .contenedor2 img{
+        left:730px;
+        position:absolute;
+        top: 1900px;
+        
+    }
+    .contenedor3 img{
+        left:67%;
+        position:absolute;
+        top: 168%;
+        
+    }
+    .contenedor4 img{
+        left: 40%;
+        position: absolute;
+        top:264%;
+    
+    }
+    .contenedor5 img{
+        left: 17%;
+        position: absolute;
+        top:355%;
+    
+    }
+    .contenedor6 img{
+        left: 17%;
+        position: absolute;
+        top:355%;
+    
+    }
