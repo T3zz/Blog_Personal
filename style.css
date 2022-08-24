@@ -48,13 +48,22 @@ body{background-image: url(Wallpaper1.jpg);
                                             align-items: center;}
                                             .contenedor6{
                                                 background-color:rgb(3, 0, 0) ;
-                                                height: 70vh;
+                                                height: 60vh;
                                                 margin: 10%;
                                                 display: flex;
                                                 flex-direction: column;
                                                  margin-top: 6%;
                                                  justify-content:space-around;
                                                     align-items: center;}
+                                                    .contenedor7{
+                                                        background-color:rgb(3, 0, 0) ;
+                                                        height: 80vh;
+                                                        margin: 10%;
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                         margin-top: 6%;
+                                                         justify-content:space-around;
+                                                            align-items: center;}
     
     #Parrafo1{color: rgb(255, 255, 255); 
         text-align:left;
@@ -78,9 +87,13 @@ body{background-image: url(Wallpaper1.jpg);
     font-weight:"medium";}
     #Parrafo6{color: rgb(255, 255, 255);
         text-align:left;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight:"medium";}
-    h1,h2,h3,h4,h5,h6{
+    #Parrafo7{color: rgb(255, 255, 255);
+        text-align:left;
+    font-size: 1.5em;
+    font-weight:"medium";}
+    h1,h2,h3,h4,h5,h6,h7{
     font-family: 'Courier New', Courier, monospace; 
     font-size: 55px;  
     text-transform: uppercase;
@@ -110,7 +123,7 @@ body{background-image: url(Wallpaper1.jpg);
     .contenedor4 img{
         left: 40%;
         position: absolute;
-        top:264%;
+        top:268%;
     
     }
     .contenedor5 img{
