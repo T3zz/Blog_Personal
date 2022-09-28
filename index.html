@@ -1,91 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-<title>Comentario ingenieria</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentario bootstrap</title>
 
+    <link rel="stylesheet" href="./bootstrap.min.css">
 </head>
 <body>
-    <div class="contenedor">
-        <h1>COMENTARIO INGENIERIA</h1>
-        <p id="Parrafo1"> 
-        Estudiante: Juan Jose Pinto<br>
-        Clase: Progamacion de nuevas tecnologias<br>
-        Profesor:Juan Pablo Franco Rubio<br>
-        Universidad de la Sabana
-            </p>
+ <div class="header">   
+    <h1>Comentario de Ingenieria</h1>
+      <h4>Estudiante: Juan Jose Pinto</h4>
+      <h4>Curso: Programacion de Nuevas Tecnologias</h4>
+      <h4>Profesor: Juan Pablo Franco Rubio</h4>
+      <h4>Universidad de La Sabana</h4>
+ </div>
+<div class="container">
+    <div class="row mt-5">
+        <div class="card" style="width: auto;">
+            <h3 class="titulo">Introduccion</h3>
+            <p>El comentario de ingenieria tiene como objetivo analizar el ser un humano desde la perspectiva de la individualidad y la colectividad, entender que significa eso y concluir en que se relacionan los temas,ya que se tuvieron en cuenta dos videos con un tema diferente,uno como la entriopia o caos como una forma de desarrollo y avance para el ser humano,durante el comentario se analizaran los temas y se encontrara una similitud o relacion entre los temas luego de reflexionar la informacion dada y mediante interpretacion dar una opinion valida.</p>
+            <p>y para finalizar luego de hacer el analisis y dar una opinion acerca de la relacion entre los temas,se uso como punto de vista la ingenieria y como afecta a mi persona en mi desarrollo afrontando las dificultades y suprimiendolas basandome en la antriopia y la colectividad.</p>
         </div>
-        <div class="contenedor2">
-            <h2>INTRODUCCION</h2>
-            <p id="Parrafo2"> 
-               El comentario de ingenieria tiene el objetivo de describir y contar la historia de tres personas y destacar su importancia y aportes a la ingenieria,esas personas son:la persona conocida como el padre de la ciencia coputacional, Alan Turing,el inventor de la red mundial de informacion,Time Berners-Lee y tambien la conocida computadora humana que lograba hacer calculos a velocidades increibles, Katherine G. Johnson
-                </p>
+    </div>
+    <br>
+
+
+    <!--<div id="mainSlider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExample" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active ">
+            <img src="ArnoldSh.jpg" width="200" height="500" alt="..." class="d-block w-100">
+          </div>
+          <div class="carousel-item ">
+            <img src="DiegoDR.jpg" width="100" height="500"alt="..." class="d-block w-100">
+          </div>
+        </div>
+        <a href="#carouselExample" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually hidden">Anterior</span>
+        </a>
+        <a href="#carouselExample" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually hidden">Siguiente</span>
+        </a>
+    </div>-->
+    <!-- RIBBON-->
+    <div id="ribbon">
+        <div id="birthday" class="container w-50 pl-5 pr-5 rounded-lg">
+          <!-- slide -->
+          <div class="row align-items-center">
+            <div class="col-sm col-sm p-3" id="description">
+              <img src="DiegoDR.jpg" class="w-75 mx-auto d-block" alt="...">
             </div>
-            <div class="contenedor3">
-                <h3>Katherine G. Johnson</h3>
-                <p id="Parrafo3"> 
-                   Katherine Johnson es una mujer estadounidense nacida en West Virginia el 26 de agosto de 1918.<br>
-                  <br>
-                   En base a lo visto en la pelicula "Figuras ocultas" la cual es capaz de mostrar el proceso de vida que ella llevo,su carreracomo profesional tuvo un giro importante al unirse al Comite Asesor Nacional Para la Aeronautica,que luego seria conocido como NASA.La meta que tenia en su tarabajo era el de lograr llevar a un hombre a la orbita que este regresara a la tierra de manera segura,ella fue una pieza importante para su equipo de trabajo debido a la gran habilidad que tenia en matematicas y resolviendo ecuaciones complejas en muy poco tiempo, gracias al desempeno que demostraba logro avanzar en sus metas ignorando las criticas que recibia al ser una mujer afro-americana,pese a todo esto ella fue la encargada de calcular la trayectoria del vuelo del primer estadounidense en viajar al espacio(Alan Shepard) como tambien la del Apolo 11 (viaje a la luna en el ano 1969),esos son los logros mas destacables en su carrera, se retira de la Nasa en 1986 a la edad de 68 anos,dejando un legado historico.  
-                   <img src="KatherineJohn.jpeg" alt="Katherine" width="300" height="240"> </p>
+            
+            <div class="col-sm p-3 text-light text-center">
+              <p class="text-warning h3">Ahora </p>
+              <h4 class="h2 text-shadow">Diego,Arnold y mi opinion personal</h4>
+            </div>
+          </div><!-- SLIDE-->
+        </div>
+    </div><!-- RIBBON-->
+
+    <!-- SEPARATOR RIBBON-->
+    <div id="separator-ribbon">
+      <div class="content bg-warning"></div>
+    </div>
+    
+    
+
+
+
+
+
+</div>
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-4">
+            <div class="card" style="width: 25rem;">
+                <img class="card-img-top" src="diego.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Diego Dreyfus</h5>
+                  <p class="card-text">Uno de los pioneros de la física teórica moderna, Richard Feynman, dijo que intentar explicar el origen del universo es como tratar de describir un sueño. Interpretar el origen del universo es difícil porque parece estar más allá de la comprensión humana. Al respecto, el físico Lawrence Krauss dice que existe una cantidad infinita y singular de energía en forma ilimitada y primordial. Esto se llama 'entropía cósmica' o 'la radiación de fondo cósmico de microondas'. Krauss describe esto en relación con la cuestión de si el universo es una creación divina o humana. Afirma que esta energía cósmica infinita e ilimitada parece ser independiente de cualquier creador y parece estar en un estado de perpetua decadencia o entropía..</p>
+                  <p>En la charla ted trata de dar su punto de vista y explicar lo que es la entriopia o caos,a lo largo de esta menciona muchas cosas que pueden ser opuestas o de diferentes temas pero de igual manera estan relacionadas,como por ejemplo que del caos viene el orden,dice que uno tiene que vivir su propia realidad para encontrar la forma de disipar el caos que va hacia ti,una forma distinta de analizar el sentido de algo pero mediante ese argumento da a entender que sin ese caos no existirian muchas cosas porque en un principio no habria un problema que solucionar.</p>
                 </div>
-                <div class="contenedor4">
-                    <h4>Alan Turing</h4>
-                    <p id="Parrafo4"> 
-                         Alan Turing es una de las personas más conocidas del siglo XX. Fue un matemático, lógico, criptoanalista e informático británico que realizó importantes contribuciones a los campos de la inteligencia artificial, la probabilidad y los sistemas de control.<br>
-                        <br>
-                         En base a la pelicula "El codigo Enigma" El trabajo de Turing en el código Enigma ayudó a acortar la guerra en al menos un año porque pudo proporcionar a la inteligencia británica información sobre los planes militares alemanes antes de que pudieran implementarlos,pese a todos sus logros,En 1952, Turing fue condenado por homosexualidad y posteriormente se sometió a un tratamiento hormonal para cambiar su orientación sexual. Murió a los 47 años en 1954 por envenenamiento con cianuro como resultado de un aparente suicidio.
-                        <img src="alanturing.jpg" alt="Alan" width="350" height="200"> </p>
-                    </div>
-                    <div class="contenedor5">
-                        <h5>Tim Berners Lee</h5>
-                        <p id="Parrafo5"> 
-                             Tim Berners-Lee es un científico informático británico mejor conocido por inventar la World Wide Web en 1989. También se le conoce como "el padre de Internet" y "el padre de la Web". Berners-Lee es un caballero, oficial del ejército real británico, por su trabajo con la tecnología de la información. También recibió la Medalla Presidencial de la Libertad, un premio estadounidense que reconoce el servicio destacado a los Estados Unidos por parte de ciudadanos extranjeros. Además, Berners-Lee ha sido nominado varias veces al Premio Nobel de la Paz, la más reciente en 2010.
-                            <br>
-                            <br>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 25rem;">
+                <img class="card-img-top" src="Arnold Shcwarzenegger.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Arnold Schwarzenegger</h5>
+                  <p class="card-text">Cuando la gente piensa en culturistas famosos, inmediatamente viene a la mente Arnold Schwarzenegger. El exgobernador de 6 pies y 4 pulgadas del estado natal de Schwarzenegger, California, también es un actor y hombre de negocios de gran éxito. Dicho esto, es posible que muchas personas no estén al tanto de la increíble historia de vida de esta figura más grande que la vida.</p>
+                  <p>Gran parte del éxito de Arnold como actor se puede atribuir a su personalidad carismática. Incluso hoy en día, muchas personas se refieren a él como 'el austriaco' o 'el roble austriaco'. También se le conoce como 'El Gobernador', por lo que se convirtió en el candidato republicano a gobernador de California en 1986.En cuanto al video tiene que ver con esto ya que durante esas epocas dio una charla en la universidad de houston donde toca el tema de la individualidad y la colectividad,dice que no importa quien seas,asi tengas talento o seas mejor que los demas,el ser humano no se desarrolla como persona de forma individual,para llegar a ser quien es o desarrollarse depende de la orientacion o ayuda de las demas personas con el fin antes mencionado.  </p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 25rem;">
+                <img class="card-img-top" src="Thinking.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Opinion Personal</h5>
+                  <p class="Mi opinion tomando la relacion entre los dos temas desde el punto de vista de la ingenieria tomaria como punto de partida la entropia ya que de esto se genera lo demas,una forma facil de entender es haciendo ejemplos que ayuden a explicarlo,como dice Diego Dreyfus el ejemplo de la carretera,la entropia hace que la movilidad se vea afectada generando asi un problema que es el trafico de aqui nace la idea de en este caso ingenieros para encontrar una solucion que pueden hacer para suprimir este caos,se llega a la conclusion de abrir una via que ayude a facilitar el paso de los vehiculos y asi se logro suprimir la entropia mediante la relacion de la colectividad y la entropia,entre un grupo dieron soluciones y lograron crear un sistema que suprima ese caos por lo tanto esoty de acuerdo con lo que mencion Diego,en el caso no haber existido el caos no hubiesen propuesto una solucion para contrarrestarlo,y gracias a la entropia es que las personas se desarrollan o "evolucionan" con el fin de sobrevivir ante las circunstancias</p>
+                 <p>Mi opinion tomando la relacion entre los dos temas desde el punto de vista de la ingenieria tomaria como punto de partida la entropia ya que de esto se genera lo demas,una forma facil de entender es haciendo ejemplos que ayuden a explicarlo,como dice Diego Dreyfus el ejemplo de la carretera,la entropia hace que la movilidad se vea afectada generando asi un problema que es el trafico de aqui nace la idea de en este caso ingenieros para encontrar una solucion que pueden hacer para suprimir este caos,se llega a la conclusion de abrir una via que ayude a facilitar el paso de los vehiculos y asi se logro suprimir la entropia mediante la relacion de la colectividad y la entropia,entre un grupo dieron soluciones y lograron crear un sistema que suprima ese caos por lo tanto estoy de acuerdo con lo que menciona Diego,en el caso no haber existido el caos no hubiesen propuesto una solucion para contrarrestarlo,y gracias a la entropia es que las personas se desarrollan o "evolucionan" con el fin de sobrevivir ante las circunstancias <p>
+                </div>
+              </div>
+        </div>
 
-                             Berners-Lee fue nombrado caballero en 2005 por sus servicios a las comunicaciones globales y la ciencia británica, ¡dos cosas en las que ha estado involucrado desde que ayudó a crear tecnologías web mundiales 20 años antes de lo esperado! Para conmemorar esta ocasión, Google nombró uno de sus autobuses en su honor, celebrando las contribuciones de Sir Tim hacia la comunicación global a través de la tecnología. Además de ser nombrado caballero por la propia reina Isabel II, Sir Tim ha recibido varios premios internacionales, incluido el premio Legion d'honneur de Francia, que reconoce el servicio destacado de ciudadanos extranjeros a Francia. A pesar de estos elogios, Sir Tim aún dirige Creative Commons UK, que otorga licencias de contenido creativo en todo el mundo en condiciones de fácil acceso para que los creadores reciban una compensación justa por su trabajo.
-                            <img src="Tim.jpg" alt="Tim" width="300" height="250">
-                            </p>
-                        </div>
-                        <div class="contenedor6">
-                            <h6>Opinion</h6>
-                            <p id="Parrafo6"> 
-                           En mi opinion durante el tema visto,puedo decir que el ser humano ha demostrado que mediante medios como la ingenieriay la informatica sirven para un desarrollo social ya que es gracias a esto que mediante el uso de esos conocimientos nacen soluciones practicas a las necesidades y problematicas que presentan la sociedad y el planeta en la actualidad.
-                           <br>
-                           <br>
-                           Tambien cabe recalcar que las personas estudiadas son destacadas por la implementacion de sus conocimientos en principalmente el area de la informatica,y hoy dia habiendo nuevas problematicas y una tecnologia mas avanzada,esto ya no solo se queda en unas areas en especifico,sino que puede llegar a ayudar y facilitar tareas en campos como la salud,construccion,etc...
-                           y yo pienso que esto en el futuro traera muchos mas beneficios para la humanidad.
+    </div>
+    </div>
+    <div class="card">
+        <div class="col-8">
+            <h2>Bibliografia</h2>
+            <p>[1]A. Schwarzenegger, Arnold Schwarzenegger's 2017 University of Houston Commencement Address. 2017.</p>
+            <p>[2]D. Dreyfus, TE DESEO MÁS CAOS DEL QUE PUEDAS AGUANTAR l DIEGO DREYFUS. 2018.</p>
+        </div>
+        <div class="col-4"></div>
+    </div>
+</div>
 
-                        
-                        </div>
-                        </div>
-                        <div class="contenedor7">
-                            <h7>Bibliografia</h7>
-                            <p id="Parrafo7">
-                                [1]SAMMARTINO, S. T. E. P. H. A. N. I. E. (2009, agosto). Tim Berners Lee,Inventor of the www. Google Academic. <a href="https://acortar.link/5e4Owl" target="_blank">https://acortar.link/5e4Owl</a>
-                                <br>
-                                [2]L.-L. (s. f.). Katherine Johnson. Google academic. <a href=" https://profilpelajar.com/Katherine_Johnson" target="_blank"> https://profilpelajar.com/Katherine_Johnson</a>
-                                <br>
-                                <br>
-                                [3]Hodges, A. (2004). Alan Turin: An introductory Biography. Springer. <a href="https://link.springer.com/chapter/10.1007/978-3-662-05642-4_1" target="_blank"> https://link.springer.com/chapter/10.1007/978-3-662-05642-4_1</a>
-                                <br>
-                                <br>
-                                [4] Hidden figures. Hampton, Virginia:20th Century Fox, 2016.
-                                <br>
-                                <br>
-                                [5]The imination Game,Santa monica, california,2014.
-                                </p> 
-                            
-                            </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"></script>
 
 </body>
-
-
-
-
-
-
-
-
 </html>
